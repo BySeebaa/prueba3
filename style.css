@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    color:white;
+    background-color: blue;
+    padding: 20px 0px;
+    /* Habilita el modo de diseño FlexBox / el navegador ignora las las propiedades de flexbox si no lo agregamos */
+    display: flex;
+
+    /* Alineacion Horizontal */
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.header {
+    width: 60%;
+    display: flex;
+    /* Distribuir horizontalmente */
+    justify-content: space-around;
+}
+
+.section-container {
+    color: blue; 
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 60%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    /* Alineacion vertical */
+    align-items: center;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+    /* flex-wrap */
+    flex-wrap: wrap;
+    opacity:50%;
+
+    /* Cambiarle la direcion*/
+    /* flex-direction:column; */
+}
+
+.first-item {
+    /* orden de como se ve / + lo mas a la derecha posible */
+    order: 1;
+}
+
+
+
+
+
+
